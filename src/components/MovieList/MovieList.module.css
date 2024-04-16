@@ -1,0 +1,17 @@
+.movieList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style-type: none;
+}
+
+li::before {
+  content: "🎥";
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5em;
+}
+
+.movieTitle {
+  color: #8314c4;
+}

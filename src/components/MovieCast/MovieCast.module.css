@@ -1,0 +1,8 @@
+.actorsList {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+}
+li::before {
+  content: none;
+}

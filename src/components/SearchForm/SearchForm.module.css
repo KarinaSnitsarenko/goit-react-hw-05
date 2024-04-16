@@ -1,0 +1,27 @@
+.searchForm {
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+  padding: 10px;
+}
+
+.searchInput {
+  height: 20px;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.searchInput:hover {
+  border: 3px solid rgb(60, 57, 161);
+}
+
+.searchBtn {
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.searchBtn:hover {
+  border: 3px solid rgb(60, 57, 161);
+}

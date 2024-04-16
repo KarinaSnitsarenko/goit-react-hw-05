@@ -1,0 +1,47 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: medium;
+  line-height: 1.5;
+  font-weight: 500;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body {
+  font-family: serif;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.navLink {
+  display: inline-flex;
+  padding: 15px 20px;
+  border: 2px solid rgb(212, 72, 119);
+  color: black;
+
+  text-decoration: none;
+  transition: all 0.3s;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.active {
+  background-color: palevioletred;
+  color: white;
+  text-decoration: none;
+}

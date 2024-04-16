@@ -1,0 +1,20 @@
+.backLink {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
+  margin-right: 3px;
+  margin-bottom: 15px;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.detailsOverview {
+  width: 700px;
+  text-align: center;
+}
