@@ -13,7 +13,7 @@ a {
   display: flex;
   height: 40px;
   padding: 15px;
-  border: 2px solid rgb(229, 109, 205);
+  /* border: 2px solid rgb(229, 109, 205); */
   background-color: rgb(236, 148, 219);
 }
 
@@ -24,20 +24,31 @@ a {
   text-decoration: none;
 }
 
-.navLink {
+.navList {
   display: inline-flex;
+  gap: 20px;
   padding: 15px 20px;
-  border: 2px solid rgb(212, 72, 119);
+  /* border: 2px solid rgb(0, 0, 0); */
   color: black;
-
+  list-style: none;
   text-decoration: none;
   transition: all 0.3s;
   text-decoration: none;
-  background-color: transparent;
 }
 
+.li > .navList {
+  display: block;
+  border: 2px solid rgb(212, 72, 119);
+  background-color: rgb(236, 148, 219);
+}
 .active {
   background-color: palevioletred;
   color: white;
   text-decoration: none;
+}
+
+.navItem {
+  border: 2px solid rgb(212, 72, 119);
+  background-color: rgb(236, 148, 219);
+  padding: 10px;
 }
